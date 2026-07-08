@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orçamento Estimativo — Casa Reserva da Serra (337-01)</title>
+<style>
+  :root{
+    --ink:#1a1a1a; --muted:#6b6b6b; --line:#e3e3e0; --bg:#ffffff;
+    --panel:#f7f6f4; --accent:#3a3a38; --accent2:#8a8a86; --pos:#2f6f4f;
+    --barA:#4b6584; --barB:#5b8266; --barC:#a5794a; --barD:#7a6a8a; --barE:#b06a5a; --barF:#7d7d78;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --ink:#eceae6; --muted:#a3a29d; --line:#33322f; --bg:#151513; --panel:#1e1e1b; --accent:#e8e6e1; --accent2:#9a988f; }
+  }
+  :root[data-theme="dark"]{ --ink:#eceae6; --muted:#a3a29d; --line:#33322f; --bg:#151513; --panel:#1e1e1b; --accent:#e8e6e1; --accent2:#9a988f; }
+  :root[data-theme="light"]{ --ink:#1a1a1a; --muted:#6b6b6b; --line:#e3e3e0; --bg:#ffffff; --panel:#f7f6f4; --accent:#3a3a38; --accent2:#8a8a86; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:1040px;margin:0 auto;padding:40px 24px 80px}
+  header.masthead{border-bottom:2px solid var(--ink);padding-bottom:20px;margin-bottom:8px}
+  .eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:11px;color:var(--muted);font-weight:600}
+  h1{font-size:30px;line-height:1.15;margin:6px 0 4px;font-weight:700}
+  h2{font-size:20px;margin:44px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line);font-weight:700}
+  h3{font-size:15px;margin:24px 0 8px;font-weight:700}
+  p{margin:8px 0}
+  .sub{color:var(--muted);font-size:14px}
+  .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:2px 24px;margin-top:16px}
+  .meta-grid div{padding:7px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .meta-grid b{display:block;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:1px}
+  .callout{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent2);
+    border-radius:6px;padding:14px 16px;margin:16px 0;font-size:13.5px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:20px 0}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+  .kpi .n{font-size:23px;font-weight:750;letter-spacing:-.01em}
+  .kpi .l{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:3px;font-weight:600}
+  .kpi.hero{background:var(--ink);color:var(--bg)}
+  .kpi.hero .l{color:var(--accent2)}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  tbody tr.grp td{background:var(--panel);font-weight:700}
+  tbody tr.total td{border-top:2px solid var(--ink);font-weight:750}
+  .barrow{display:flex;align-items:center;gap:12px;margin:7px 0}
+  .barrow .cap{flex:0 0 240px;font-size:13px}
+  .barrow .track{flex:1;height:15px;background:var(--panel);border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+  .barrow .fill{height:100%}
+  .barrow .val{flex:0 0 150px;text-align:right;font-variant-numeric:tabular-nums;font-size:13px;white-space:nowrap}
+  details{border:1px solid var(--line);border-radius:8px;margin:8px 0;overflow:hidden}
+  details>summary{cursor:pointer;padding:11px 14px;background:var(--panel);font-weight:650;font-size:14px;
+    display:flex;justify-content:space-between;gap:12px;list-style:none}
+  details>summary::-webkit-details-marker{display:none}
+  details>summary::after{content:"+";color:var(--muted);font-weight:700}
+  details[open]>summary::after{content:"–"}
+  details .body{padding:2px 14px 12px}
+  ul.tight{margin:8px 0;padding-left:20px}
+  ul.tight li{margin:4px 0;font-size:13.5px}
+  .foot{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+  .tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.05em;padding:2px 8px;border-radius:20px;
+    background:var(--panel);border:1px solid var(--line);color:var(--muted);text-transform:uppercase}
+  @media(max-width:640px){.barrow .cap{flex-basis:120px}.barrow .val{flex-basis:96px}h1{font-size:24px}}
+  @media print{.kpi.hero{background:#111 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}details{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">Orçamento Estimativo Preliminar · Estimativa de Custo de Obra</div>
+    <h1>Casa Reserva da Serra — Residência Unifamiliar</h1>
+    <p class="sub">Projeto Stemmer Rodrigues 337-01 · Loteamento Reserva da Serra, Lotes 01 e 02, Quadra 10 · Canela / RS</p>
+    <div class="meta-grid">
+      <div><b>Cliente / Proprietário</b>Tiago Garcia de Freitas</div>
+      <div><b>Projeto arquitetônico</b>Stemmer Rodrigues Arquitetura</div>
+      <div><b>Resp. técnico</b>Roberto André Stemmer · CAU A18846-8</div>
+      <div><b>Área construída</b>780,75 m² (Térreo 512,45 + Subsolo 268,30)</div>
+      <div><b>Terreno</b>1.567 m²</div>
+      <div><b>Base documental</b>Memorial Descritivo + Pranchas PL001–PL004 (07/2026)</div>
+    </div>
+  </header>
+
+  <div class="callout">
+    <strong>⚠ Natureza deste documento.</strong> Trata-se de uma <strong>estimativa de custo preliminar (ordem de grandeza)</strong>,
+    elaborada a partir do quadro de áreas das pranchas e das especificações do Memorial Descritivo de Acabamentos.
+    Quantidades derivam das áreas de projeto e de coeficientes técnicos; os preços unitários são referências de mercado
+    para <strong>padrão alto luxo na Serra Gaúcha (2026)</strong> e <strong>devem ser confirmados por cotações e por um
+    orçamento analítico</strong> feito sobre os projetos executivos e complementares. Valores em BRL, sem reajuste (INCC) no período.
+  </div>
+
+  <section>
+    <h2>1. Indicadores</h2>
+    <div class="kpis">
+      <div class="kpi hero"><div class="n">R$ 11,30 mi</div><div class="l">Total geral estimado</div></div>
+      <div class="kpi"><div class="n">R$ 9,91 mi</div><div class="l">Custo direto de obra</div></div>
+      <div class="kpi"><div class="n">R$ 12.693</div><div class="l">Custo direto / m²</div></div>
+      <div class="kpi"><div class="n">R$ 14.474</div><div class="l">Custo total / m²</div></div>
+      <div class="kpi"><div class="n">780,75 m²</div><div class="l">Área construída</div></div>
+    </div>
+    <p class="sub">O “Total geral” inclui administração local de obra (~8,6%) e reserva técnica (~5%). <strong>Não</strong> inclui terreno,
+    honorários de projeto, marcenaria sob medida, mobiliário/decoração nem BDI/lucro de construtora em contratação turnkey (ver seção 5).</p>
+  </section>
+
+  <section>
+    <h2>2. Composição por grupo</h2>
+    <div class="barrow"><div class="cap">A · Infraestrutura e estrutura</div><div class="track"><div class="fill" style="width:30.8%;background:var(--barA)"></div></div><div class="val">R$ 3.050.000 · 30,8%</div></div>
+    <div class="barrow"><div class="cap">B · Instalações</div><div class="track"><div class="fill" style="width:17.4%;background:var(--barB)"></div></div><div class="val">R$ 1.720.000 · 17,4%</div></div>
+    <div class="barrow"><div class="cap">C · Revestimentos e acabamentos</div><div class="track"><div class="fill" style="width:22.7%;background:var(--barC)"></div></div><div class="val">R$ 2.250.000 · 22,7%</div></div>
+    <div class="barrow"><div class="cap">D · Esquadrias, vidros e serralheria</div><div class="track"><div class="fill" style="width:13.2%;background:var(--barD)"></div></div><div class="val">R$ 1.310.000 · 13,2%</div></div>
+    <div class="barrow"><div class="cap">E · Pedras, escada e itens especiais</div><div class="track"><div class="fill" style="width:12.3%;background:var(--barE)"></div></div><div class="val">R$ 1.220.000 · 12,3%</div></div>
+    <div class="barrow"><div class="cap">F · Complementares</div><div class="track"><div class="fill" style="width:3.6%;background:var(--barF)"></div></div><div class="val">R$ 360.000 · 3,6%</div></div>
+    <p class="sub" style="margin-top:10px">Percentuais sobre o custo direto de obra (R$ 9.910.000). A forte participação dos grupos C e D reflete o padrão de
+    acabamento especificado (concreto aparente, mármore Branco Paraná, madeira carbonizada, freijó, basalto irregular, esquadrias minimalistas).</p>
+  </section>
+
+  <section>
+    <h2>3. Orçamento sintético por etapa</h2>
+    <p class="sub">As 25 etapas seguem a ordem do Memorial Descritivo. Clique nas etapas com “+” para ver a composição (quantidade × preço unitário).</p>
+    <table>
+      <thead><tr><th style="width:44px">Item</th><th>Etapa</th><th class="num">Valor (R$)</th><th class="num">% direto</th></tr></thead>
+      <tbody>
+        <tr class="grp"><td>A</td><td>Infraestrutura e estrutura</td><td class="num">3.050.000</td><td class="num">30,8%</td></tr>
+        <tr><td>01</td><td>Serviços preliminares e canteiro</td><td class="num">120.000</td><td class="num">1,2%</td></tr>
+        <tr><td>02</td><td>Movimento de terra, terraplenagem e contenções</td><td class="num">380.000</td><td class="num">3,8%</td></tr>
+        <tr><td>03</td><td>Fundações (concreto armado, baldrames impermeabilizados)</td><td class="num">520.000</td><td class="num">5,2%</td></tr>
+        <tr><td>04</td><td>Estrutura de concreto armado (incl. concreto aparente em chapas)</td><td class="num">1.350.000</td><td class="num">13,6%</td></tr>
+        <tr><td>05</td><td>Alvenarias e vedações (tijolo 6 furos / 19cm)</td><td class="num">260.000</td><td class="num">2,6%</td></tr>
+        <tr><td>06</td><td>Impermeabilização (banheiros, lajes planas, floreiras, varandas)</td><td class="num">180.000</td><td class="num">1,8%</td></tr>
+        <tr><td>07</td><td>Cobertura e isolamento térmico (manta + isopor 4cm + argamassa)</td><td class="num">240.000</td><td class="num">2,4%</td></tr>
+
+        <tr class="grp"><td>B</td><td>Instalações</td><td class="num">1.720.000</td><td class="num">17,4%</td></tr>
+        <tr><td>08</td><td>Instalações hidrossanitárias e drenagem</td><td class="num">420.000</td><td class="num">4,2%</td></tr>
+        <tr><td>09</td><td>Instalações elétricas, dados, CFTV e automação</td><td class="num">620.000</td><td class="num">6,3%</td></tr>
+        <tr><td>10</td><td>Climatização, piso radiante e aquecimento de água (caldeira a gás)</td><td class="num">680.000</td><td class="num">6,9%</td></tr>
+
+        <tr class="grp"><td>C</td><td>Revestimentos e acabamentos</td><td class="num">2.250.000</td><td class="num">22,7%</td></tr>
+        <tr><td>11</td><td>Revestimentos de paredes (mármore, madeira carbonizada, freijó, basalto, concreto aparente)</td><td class="num">980.000</td><td class="num">9,9%</td></tr>
+        <tr><td>12</td><td>Pavimentação e pisos (basalto irregular, madeira Triângulo, mármore)</td><td class="num">780.000</td><td class="num">7,9%</td></tr>
+        <tr><td>13</td><td>Forros (madeira louro freijó 100mm + gesso)</td><td class="num">300.000</td><td class="num">3,0%</td></tr>
+        <tr><td>14</td><td>Pintura</td><td class="num">190.000</td><td class="num">1,9%</td></tr>
+
+        <tr class="grp"><td>D</td><td>Esquadrias, vidros e serralheria</td><td class="num">1.310.000</td><td class="num">13,2%</td></tr>
+        <tr><td>15</td><td>Esquadrias de alumínio minimalista + telas mosquiteiras</td><td class="num">720.000</td><td class="num">7,3%</td></tr>
+        <tr><td>16</td><td>Esquadrias de madeira (Eclisse, camarão brise, painel freijó)</td><td class="num">340.000</td><td class="num">3,4%</td></tr>
+        <tr><td>17</td><td>Vidros e guarda-corpos (laminado Q-Railing Easy Glass)</td><td class="num">160.000</td><td class="num">1,6%</td></tr>
+        <tr><td>18</td><td>Ferragens (IMAB Quattro, roldanas, maçanetas)</td><td class="num">90.000</td><td class="num">0,9%</td></tr>
+
+        <tr class="grp"><td>E</td><td>Pedras, escada e itens especiais</td><td class="num">1.220.000</td><td class="num">12,3%</td></tr>
+        <tr><td>19</td><td>Bancadas e tampos (Dekton Kreta, mármore, granito Siena, basalto)</td><td class="num">260.000</td><td class="num">2,6%</td></tr>
+        <tr><td>20</td><td>Escada especial (concreto + metálica revestida carvalho)</td><td class="num">120.000</td><td class="num">1,2%</td></tr>
+        <tr><td>21</td><td>Louças e metais (Deca, Docol, Doka, ralos ocultos)</td><td class="num">300.000</td><td class="num">3,0%</td></tr>
+        <tr><td>22</td><td>Piscina, SPA, sauna e deck</td><td class="num">360.000</td><td class="num">3,6%</td></tr>
+        <tr><td>23</td><td>Lareiras (3) e churrasqueira</td><td class="num">180.000</td><td class="num">1,8%</td></tr>
+
+        <tr class="grp"><td>F</td><td>Complementares</td><td class="num">360.000</td><td class="num">3,6%</td></tr>
+        <tr><td>24</td><td>Paisagismo, muros de pedra, rampa e urbanização</td><td class="num">300.000</td><td class="num">3,0%</td></tr>
+        <tr><td>25</td><td>Limpeza final e entrega</td><td class="num">60.000</td><td class="num">0,6%</td></tr>
+
+        <tr class="total"><td></td><td>Custo direto de obra</td><td class="num">9.910.000</td><td class="num">100%</td></tr>
+        <tr><td></td><td>(+) Administração local e mobilização técnica (~8,6%)</td><td class="num">850.000</td><td class="num"></td></tr>
+        <tr><td></td><td>(=) Subtotal de obra</td><td class="num">10.760.000</td><td class="num"></td></tr>
+        <tr><td></td><td>(+) Contingência / reserva técnica (~5%)</td><td class="num">540.000</td><td class="num"></td></tr>
+        <tr class="total"><td></td><td>TOTAL GERAL ESTIMADO</td><td class="num">11.300.000</td><td class="num"></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>4. Composição dos itens de maior peso</h2>
+
+    <details><summary><span>12 · Pavimentação e pisos</span><span>R$ 780.000</span></summary>
+      <div class="body"><table>
+        <thead><tr><th>Serviço</th><th class="num">Un.</th><th class="num">Qtd.</th><th class="num">R$/un.</th><th class="num">Total</th></tr></thead>
+        <tbody>
+          <tr><td>Contrapiso e regularização</td><td class="num">m²</td><td class="num">760</td><td class="num">90</td><td class="num">68.400</td></tr>
+          <tr><td>Basalto irregular grandes peças + resina fosca</td><td class="num">m²</td><td class="num">500</td><td class="num">620</td><td class="num">310.000</td></tr>
+          <tr><td>Madeira Triângulo carvalho Ravenna 190mm</td><td class="num">m²</td><td class="num">205</td><td class="num">760</td><td class="num">155.800</td></tr>
+          <tr><td>Mármore Branco Paraná — piso banhos</td><td class="num">m²</td><td class="num">45</td><td class="num">1.400</td><td class="num">63.000</td></tr>
+          <tr><td>Rodapé metálico negativo 2×4cm</td><td class="num">m</td><td class="num">600</td><td class="num">120</td><td class="num">72.000</td></tr>
+          <tr><td>Soleiras de basalto + proteção de pisos</td><td class="num">vb</td><td class="num">1</td><td class="num">110.800</td><td class="num">110.800</td></tr>
+        </tbody>
+      </table></div>
+    </details>
+
+    <details><summary><span>11 · Revestimentos de paredes</span><span>R$ 980.000</span></summary>
+      <div class="body"><table>
+        <thead><tr><th>Serviço</th><th class="num">Un.</th><th class="num">Qtd.</th><th class="num">R$/un.</th><th class="num">Total</th></tr></thead>
+        <tbody>
+          <tr><td>Mármore Branco Paraná — banhos até h=1,90m + perfil metálico</td><td class="num">m²</td><td class="num">130</td><td class="num">1.300</td><td class="num">169.000</td></tr>
+          <tr><td>Painel/ripado madeira carbonizada (fachada, tratado)</td><td class="num">m²</td><td class="num">320</td><td class="num">900</td><td class="num">288.000</td></tr>
+          <tr><td>Lambri louro freijó (social, painéis, master, estar íntimo)</td><td class="num">m²</td><td class="num">180</td><td class="num">850</td><td class="num">153.000</td></tr>
+          <tr><td>Basalto irregular parede (garagem / muros)</td><td class="num">m²</td><td class="num">130</td><td class="num">650</td><td class="num">84.500</td></tr>
+          <tr><td>Concreto aparente preto — tratamento e forma paginada</td><td class="num">m²</td><td class="num">250</td><td class="num">350</td><td class="num">87.500</td></tr>
+          <tr><td>Reboco fino + massa corrida + selante (demais paredes)</td><td class="num">m²</td><td class="num">1.230</td><td class="num">73</td><td class="num">89.790</td></tr>
+          <tr><td>Revestimento tensai + espelhos de pedra de bancadas</td><td class="num">vb</td><td class="num">1</td><td class="num">108.210</td><td class="num">108.210</td></tr>
+        </tbody>
+      </table></div>
+    </details>
+
+    <details><summary><span>10 · Climatização, piso radiante e aquecimento</span><span>R$ 680.000</span></summary>
+      <div class="body"><table>
+        <thead><tr><th>Serviço</th><th class="num">Un.</th><th class="num">Qtd.</th><th class="num">R$/un.</th><th class="num">Total</th></tr></thead>
+        <tbody>
+          <tr><td>Piso radiante hidráulico</td><td class="num">m²</td><td class="num">555</td><td class="num">450</td><td class="num">249.750</td></tr>
+          <tr><td>Ar condicionado (VRF/splits) instalado</td><td class="num">vb</td><td class="num">1</td><td class="num">290.000</td><td class="num">290.000</td></tr>
+          <tr><td>Caldeira a gás + tubulação de aquecimento de água</td><td class="num">vb</td><td class="num">1</td><td class="num">140.250</td><td class="num">140.250</td></tr>
+        </tbody>
+      </table></div>
+    </details>
+
+    <details><summary><span>15 · Esquadrias de alumínio</span><span>R$ 720.000</span></summary>
+      <div class="body"><table>
+        <thead><tr><th>Serviço</th><th class="num">Un.</th><th class="num">Qtd.</th><th class="num">R$/un.</th><th class="num">Total</th></tr></thead>
+        <tbody>
+          <tr><td>Esquadrias alumínio minimalista c/ vidros (Scheid/Prata/Treviso)</td><td class="num">m²</td><td class="num">205</td><td class="num">3.250</td><td class="num">666.250</td></tr>
+          <tr><td>Telas mosquiteiras</td><td class="num">vb</td><td class="num">1</td><td class="num">53.750</td><td class="num">53.750</td></tr>
+        </tbody>
+      </table></div>
+    </details>
+
+    <details><summary><span>21 · Louças e metais</span><span>R$ 300.000</span></summary>
+      <div class="body"><table>
+        <thead><tr><th>Serviço</th><th class="num">Un.</th><th class="num">Qtd.</th><th class="num">R$/un.</th><th class="num">Total</th></tr></thead>
+        <tbody>
+          <tr><td>Bacias Deca (Axis / Carrara) c/ caixa embutida</td><td class="num">un</td><td class="num">7</td><td class="num">3.500</td><td class="num">24.500</td></tr>
+          <tr><td>Cubas de embutir Slim Deca</td><td class="num">un</td><td class="num">5</td><td class="num">650</td><td class="num">3.250</td></tr>
+          <tr><td>Metais Docol / Deca / Zen (monocomandos, chuveiros, acessórios)</td><td class="num">vb</td><td class="num">1</td><td class="num">190.000</td><td class="num">190.000</td></tr>
+          <tr><td>Banheira Doka Creta X Matt White + monocomando Rainbow</td><td class="num">un</td><td class="num">1</td><td class="num">45.000</td><td class="num">45.000</td></tr>
+          <tr><td>Ralos ocultos lineares</td><td class="num">un</td><td class="num">14</td><td class="num">900</td><td class="num">12.600</td></tr>
+          <tr><td>Louças e metais cozinha / lavanderia</td><td class="num">vb</td><td class="num">1</td><td class="num">24.650</td><td class="num">24.650</td></tr>
+        </tbody>
+      </table></div>
+    </details>
+
+    <details><summary><span>22 · Piscina, SPA, sauna e deck</span><span>R$ 360.000</span></summary>
+      <div class="body"><table>
+        <thead><tr><th>Serviço</th><th class="num">Un.</th><th class="num">Qtd.</th><th class="num">R$/un.</th><th class="num">Total</th></tr></thead>
+        <tbody>
+          <tr><td>Piscina concreto armado 15m² + impermeab. + revest. Portobello Barlavento Gris</td><td class="num">vb</td><td class="num">1</td><td class="num">235.000</td><td class="num">235.000</td></tr>
+          <tr><td>SPA e aquecimento</td><td class="num">vb</td><td class="num">1</td><td class="num">70.000</td><td class="num">70.000</td></tr>
+          <tr><td>Sauna</td><td class="num">vb</td><td class="num">1</td><td class="num">30.000</td><td class="num">30.000</td></tr>
+          <tr><td>Casa de máquinas / filtragem e complementos</td><td class="num">vb</td><td class="num">1</td><td class="num">25.000</td><td class="num">25.000</td></tr>
+        </tbody>
+      </table></div>
+    </details>
+  </section>
+
+  <section>
+    <h2>5. Itens não inclusos / verbas complementares</h2>
+    <p class="sub">Fora do escopo do custo de obra acima. Considerar em orçamento à parte:</p>
+    <ul class="tight">
+      <li><strong>Terreno</strong> e despesas de aquisição/registro.</li>
+      <li><strong>Honorários</strong> de projeto arquitetônico e complementares, ART/RRT, aprovações e taxas municipais.</li>
+      <li><strong>Marcenaria sob medida</strong> (armários, cozinha, closets, painéis internos) — verba referencial <strong>R$ 450.000</strong>, não incluída no total.</li>
+      <li><strong>Mobiliário solto, decoração, cortinas, iluminação decorativa e paisagismo de grande porte.</strong></li>
+      <li><strong>Eletrodomésticos</strong> e equipamentos de cozinha/lavanderia.</li>
+      <li><strong>BDI / lucro de construtora</strong> em contratação turnkey (tipicamente +20% a +28% sobre o custo).</li>
+      <li><strong>Reajuste (INCC)</strong> ao longo do cronograma e variações cambiais de itens importados.</li>
+    </ul>
+    <p class="sub">Considerando marcenaria (R$ 450 mil) e um BDI de construtora de ~24% sobre o subtotal de obra, o
+    <strong>custo total contratado turnkey</strong> se aproximaria de <strong>R$ 14–15 milhões</strong>.</p>
+  </section>
+
+  <section>
+    <h2>6. Premissas e metodologia</h2>
+    <ul class="tight">
+      <li>Áreas por ambiente extraídas das plantas baixas (PL002 Térreo, PL003 Subsolo) e do quadro de áreas (PL001). Área construída total <strong>780,75 m²</strong>.</li>
+      <li>Especificações de acabamento conforme <strong>Memorial Descritivo de Acabamentos</strong> (Stemmer Rodrigues, 06/07/2026) — marcas e referências mantidas quando citadas (Deca, Docol, Doka, IMAB, Portobello, Triângulo, Dekton, Q-Railing).</li>
+      <li>Quantidades de pisos calculadas por ambiente; revestimentos de parede, formas de concreto aparente e esquadrias estimados por coeficientes sobre áreas e perímetros (a confirmar com projeto executivo).</li>
+      <li>Preços unitários: referência de mercado <strong>Serra Gaúcha / RS, 2026</strong>, padrão alto luxo, materiais e mão de obra (fornecido e instalado).</li>
+      <li>Divergências entre cotas, desenhos e memorial seguem a precedência definida no item 1.2.1 do memorial (prevalecem cotas e desenhos de detalhe).</li>
+      <li>Precisão esperada desta fase: <strong>ordem de grandeza (−15% a +25%)</strong>. Recomenda-se orçamento analítico com quantitativos executivos e no mínimo 3 cotações por item relevante.</li>
+    </ul>
+  </section>
+
+  <div class="foot">
+    <span class="tag">Estimativa preliminar</span>
+    &nbsp; Documento gerado a partir do Memorial Descritivo e das pranchas PL001–PL004 · Casa Reserva da Serra 337-01 · Canela/RS.
+    Valores em Reais (BRL), base 2026, sujeitos a confirmação por cotação. Arquivos de apoio:
+    <code>orcamento-estimativo.csv</code> (itens) e <code>quadro-de-areas.csv</code> (áreas).
+  </div>
+
+</div>
+</body>
+</html>

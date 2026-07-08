@@ -1,0 +1,53 @@
+Grupo;Item;Etapa/Servico;Descricao/Composicao;Unidade;Quantidade;Preco_unitario_BRL;Total_BRL
+A - Infraestrutura e estrutura;01;Servicos preliminares e canteiro;Barracao, ligacoes provisorias, tapume, locacao da obra;vb;1;120000;120000
+A - Infraestrutura e estrutura;02;Movimento de terra e contencoes;Terraplenagem em declive, escavacao subsolo, muros de contencao da rampa, drenagem;vb;1;380000;380000
+A - Infraestrutura e estrutura;03;Fundacoes;Fundacao em concreto armado, baldrames impermeabilizados com hidroasfalto;vb;1;520000;520000
+A - Infraestrutura e estrutura;04;Estrutura de concreto armado;Lajes convencionais, vigas e pilares; inclui concreto aparente preto em chapas (formas de compensado 1,10x2,20 paginadas);vb;1;1350000;1350000
+A - Infraestrutura e estrutura;05;Alvenarias e vedacoes;Tijolo 6 furos, paredes externas 19cm, internas conforme projeto;vb;1;260000;260000
+A - Infraestrutura e estrutura;06;Impermeabilizacao;Manta de hidroasfalto em banheiros, floreiras, lajes planas, varandas;vb;1;180000;180000
+A - Infraestrutura e estrutura;07;Cobertura e isolamento termico;Laje plana, manta asfaltica, isopor alta densidade 4cm, argamassa de protecao, abas;vb;1;240000;240000
+B - Instalacoes;08;Instalacoes hidrossanitarias e drenagem;Redes agua fria/quente, esgoto, pluvial, reservatorios (projeto Stemmer);vb;1;420000;420000
+B - Instalacoes;09;Instalacoes eletricas, dados e automacao;Eletrica, telefonia, dados, CFTV, iluminacao e automacao;m2;780.75;794;620000
+B - Instalacoes;10a;Climatizacao/aquecimento;Piso radiante hidraulico;m2;555;450;249750
+B - Instalacoes;10b;Climatizacao/aquecimento;Ar condicionado (VRF/splits) fornecido e instalado;vb;1;290000;290000
+B - Instalacoes;10c;Climatizacao/aquecimento;Caldeira a gas + tubulacao de aquecimento de agua;vb;1;140250;140250
+C - Revestimentos e acabamentos;11a;Revestimentos de paredes;Marmore Branco Parana banhos ate h=1,90m + perfil metalico;m2;130;1300;169000
+C - Revestimentos e acabamentos;11b;Revestimentos de paredes;Painel/ripado madeira carbonizada fachada (tratado e instalado);m2;320;900;288000
+C - Revestimentos e acabamentos;11c;Revestimentos de paredes;Lambri louro freijo (social, portas painel, suite master, estar intimo);m2;180;850;153000
+C - Revestimentos e acabamentos;11d;Revestimentos de paredes;Basalto irregular parede (garagem/muros);m2;130;650;84500
+C - Revestimentos e acabamentos;11e;Revestimentos de paredes;Concreto aparente preto - tratamento hidrofugante e forma paginada premium;m2;250;350;87500
+C - Revestimentos e acabamentos;11f;Revestimentos de paredes;Reboco fino + massa corrida + selante (demais paredes);m2;1230;73;89790
+C - Revestimentos e acabamentos;11g;Revestimentos de paredes;Revestimento tensai (lavabo) e espelhos de pedra de bancadas;vb;1;108210;108210
+C - Revestimentos e acabamentos;12a;Pavimentacao e pisos;Contrapiso e regularizacao;m2;760;90;68400
+C - Revestimentos e acabamentos;12b;Pavimentacao e pisos;Basalto irregular grandes pecas + resina fosca (fornec+assent);m2;500;620;310000
+C - Revestimentos e acabamentos;12c;Pavimentacao e pisos;Piso madeira Triangulo carvalho Ravenna 190mm;m2;205;760;155800
+C - Revestimentos e acabamentos;12d;Pavimentacao e pisos;Marmore Branco Parana piso banhos grandes formatos;m2;45;1400;63000
+C - Revestimentos e acabamentos;12e;Pavimentacao e pisos;Rodape metalico negativo 2x4cm;m;600;120;72000
+C - Revestimentos e acabamentos;12f;Pavimentacao e pisos;Soleiras de basalto e protecao de pisos na obra;vb;1;110800;110800
+C - Revestimentos e acabamentos;13;Forros;Madeira louro freijo reguas 100mm macho-femea + forro de gesso;vb;1;300000;300000
+C - Revestimentos e acabamentos;14;Pintura;Tinta acrilica s/ massa corrida, hidrorrepelente concreto, esquadrias madeira;vb;1;190000;190000
+D - Esquadrias, vidros e serralheria;15a;Esquadrias de aluminio;Esquadrias aluminio minimalista c/ vidros (Scheid/Prata/Treviso);m2;205;3250;666250
+D - Esquadrias, vidros e serralheria;15b;Esquadrias de aluminio;Telas mosquiteiras;vb;1;53750;53750
+D - Esquadrias, vidros e serralheria;16;Esquadrias de madeira;Portas marco invisivel Eclisse, portas camarao brise carbonizada, portas painel freijo;vb;1;340000;340000
+D - Esquadrias, vidros e serralheria;17;Vidros e guarda-corpos;Guarda-corpo vidro laminado Q-Railing Easy Glass + vidros especiais;vb;1;160000;160000
+D - Esquadrias, vidros e serralheria;18;Ferragens;Fechaduras IMAB Quattro cromo acetinado, roldanas, dobradicas, macanetas;vb;1;90000;90000
+E - Pedras, escada e itens especiais;19;Bancadas e tampos;Dekton Kreta (cozinha/copa), marmore Branco Parana c/ cuba esculpida, granito Branco Siena, basalto ilha gourmet;vb;1;260000;260000
+E - Pedras, escada e itens especiais;20;Escada especial;Patamar concreto armado, degraus metalicos revestidos carvalho, bloco concreto aparente, corrimao embutido;vb;1;120000;120000
+E - Pedras, escada e itens especiais;21a;Loucas e metais;Bacias Deca (Axis/Carrara) c/ caixa de descarga embutida;un;7;3500;24500
+E - Pedras, escada e itens especiais;21b;Loucas e metais;Cubas de embutir Slim Deca;un;5;650;3250
+E - Pedras, escada e itens especiais;21c;Loucas e metais;Metais Docol/Deca/Zen (monocomandos, chuveiros, acessorios);vb;1;190000;190000
+E - Pedras, escada e itens especiais;21d;Loucas e metais;Banheira Doka Creta X Matt White + monocomando piso Rainbow;un;1;45000;45000
+E - Pedras, escada e itens especiais;21e;Loucas e metais;Ralos ocultos lineares;un;14;900;12600
+E - Pedras, escada e itens especiais;21f;Loucas e metais;Loucas e metais cozinha e lavanderia;vb;1;24650;24650
+E - Pedras, escada e itens especiais;22a;Piscina, SPA, sauna e deck;Piscina concreto armado 15m2 + impermeab + revest Portobello Barlavento Gris;vb;1;235000;235000
+E - Pedras, escada e itens especiais;22b;Piscina, SPA, sauna e deck;SPA e aquecimento;vb;1;70000;70000
+E - Pedras, escada e itens especiais;22c;Piscina, SPA, sauna e deck;Sauna;vb;1;30000;30000
+E - Pedras, escada e itens especiais;22d;Piscina, SPA, sauna e deck;Casa de maquinas/filtragem e complementos;vb;1;25000;25000
+E - Pedras, escada e itens especiais;23;Lareiras e churrasqueira;3 lareiras concreto aparente + refratario; churrasqueira bloco basalto rustico + refratario;vb;1;180000;180000
+F - Complementares;24;Paisagismo, muros e urbanizacao;Muros de pedra, rampa de veiculos, paisagismo basico, urbanizacao;vb;1;300000;300000
+F - Complementares;25;Limpeza final e entrega;Limpeza geral, testes de instalacoes, entrega da obra;vb;1;60000;60000
+RESUMO;;Custo direto de obra;Soma das etapas 01-25;;;;9910000
+RESUMO;;Administracao local e mobilizacao;Equipe tecnica, encargos, operacao de canteiro (~20-24 meses) ~8,6%;;;;850000
+RESUMO;;Subtotal obra;Custo direto + administracao local;;;;10760000
+RESUMO;;Contingencia / reserva tecnica;~5% sobre subtotal;;;;540000
+RESUMO;;TOTAL GERAL ESTIMADO;Custo de obra estimado (sem terreno, projetos, marcenaria, mobiliario, BDI de construtora);;;;11300000
