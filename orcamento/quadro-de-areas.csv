@@ -1,0 +1,45 @@
+Pavimento;Ambiente;Area_m2;Piso_previsto
+Terreo;Suite casal;29.025;Madeira Triangulo carvalho Ravenna
+Terreo;Closet;15.550;Madeira Triangulo carvalho Ravenna
+Terreo;Banho ele;7.950;Marmore Branco Parana
+Terreo;Banho ela;7.950;Marmore Branco Parana
+Terreo;Rouparia;1.850;Madeira Triangulo carvalho Ravenna
+Terreo;Banho;5.225;Marmore Branco Parana
+Terreo;Suite filha;22.400;Madeira Triangulo carvalho Ravenna
+Terreo;Suite hospede 01;21.500;Madeira Triangulo carvalho Ravenna
+Terreo;Banho;5.350;Marmore Branco Parana
+Terreo;Estar intimo;36.950;Madeira Triangulo carvalho Ravenna
+Terreo;Circulacao intima;12.575;Madeira Triangulo carvalho Ravenna
+Terreo;Hall de entrada;18.950;Basalto irregular
+Terreo;Lavabo/Chapelaria;9.825;Basalto irregular
+Terreo;Loucaria;3.175;Basalto irregular
+Terreo;Despensa;4.800;Basalto irregular
+Terreo;Cozinha;24.725;Basalto irregular
+Terreo;Area social;117.075;Basalto irregular
+Terreo;Varanda;69.950;Basalto irregular
+Terreo;Escritorio;16.725;Basalto irregular
+Subsolo;Academia;20.200;Madeira Triangulo carvalho Ravenna
+Subsolo;Escada/Circulacao;24.700;Basalto irregular
+Subsolo;Adega;9.460;Basalto irregular
+Subsolo;Garagem;92.650;Basalto irregular
+Subsolo;Copa;4.690;Basalto irregular
+Subsolo;Area tecnica;13.260;Cimentado/tecnico
+Subsolo;Suite hospede 02;17.790;Madeira Triangulo carvalho Ravenna
+Subsolo;Suite hospede 03;16.520;Madeira Triangulo carvalho Ravenna
+Subsolo;Banho hosp. 02;5.070;Marmore Branco Parana
+Subsolo;Banho hosp. 03;4.310;Marmore Branco Parana
+Subsolo;Sauna;4.000;Sauna (revestimento especifico)
+Subsolo;Banho piscina;4.470;Marmore Branco Parana
+Subsolo;Suite hospede 04;10.130;Madeira Triangulo carvalho Ravenna
+Subsolo;Banho hosp. 04;3.690;Marmore Branco Parana
+Subsolo;Lavanderia;9.890;Basalto irregular
+Subsolo;Circulacao;4.480;Basalto irregular
+Subsolo;Piscina;15.050;Portobello Barlavento Gris
+Subsolo;SPA;7.520;Portobello Barlavento Gris
+Subsolo;Circulacao piscina;19.090;Basalto irregular
+Subsolo;Rouparia;4.420;Madeira Triangulo carvalho Ravenna
+Subsolo;Deck piscina;22.690;Basalto irregular
+TOTAL;Area construida Terreo;512.450;
+TOTAL;Area construida Subsolo;268.300;
+TOTAL;Area construida GERAL;780.750;
+TOTAL;Area do terreno;1567.000;
